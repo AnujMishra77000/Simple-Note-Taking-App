@@ -1,4 +1,4 @@
-"""from django.test import TestCase
+from django.test import TestCase
 from django.urls import reverse
 from rest_framework import status
 from rest_framework.test import APITestCase
@@ -49,5 +49,5 @@ class Create_NoteApiTest_Case(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         note.refresh_from_db()
         self.assertEqual(note.title, 'Updated Title')
-        self.assertEqual(note.body, 'Updated body text.')"""
+        self.assertEqual(note.body, 'Updated body text.')
 
