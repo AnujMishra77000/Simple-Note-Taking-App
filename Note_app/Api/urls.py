@@ -19,7 +19,7 @@ schema_view = get_schema_view(
 )
 urlpatterns = [
     path('Api/', CreateNoteView.as_view(), name='Creating-Note'),
-    path('Api/<int:pk>/', FetchNotesbyIDView.as_view(), name='Fetching-Note'),
+    path('Api/<int:pk>/', FetchNotesbyIDView.as_view(), name='Fetching_Note'),
     path('Api/search/', SearchQueryNotesView.as_view(), name='Search_by_Query'),
     path('Api/update/<int:pk>/', UpdateNoteView.as_view(), name='Updating-Note'),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),

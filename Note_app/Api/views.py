@@ -20,7 +20,7 @@ class FetchNotesbyIDView(APIView):
             return Response({'error': 'Not found Please enter Valid Note ID'}, status=status.HTTP_404_NOT_FOUND)
 
         serializer = NoteSerializer(data)
-        return Response(serializer.data)
+        return Response(serializer.data , status=status.HTTP_200_OK)
 
 class SearchQueryNotesView(generics.ListAPIView):
     queryset = Notes.objects.all()
@@ -32,3 +32,4 @@ class SearchQueryNotesView(generics.ListAPIView):
 class UpdateNoteView(generics.UpdateAPIView):
     queryset = Notes.objects.all()
     serializer_class = NoteSerializer
+    
