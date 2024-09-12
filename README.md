@@ -1,3 +1,5 @@
+UPDATE ---> Today updated some test cases for more accurate tests.
+
 Build a RESTful API for a simple note-taking application using Django Framework
 Ae per above Assessment question i completed the given task I’ve thoroughly reviewed the requirements 
 and ensured that all components are addressed to the best of my ability.
@@ -27,6 +29,11 @@ Api EndPoints and there localhost address
 (iv) UpdateNoteView  ---> http://127.0.0.1:8000/note/Api/update/1/
     User can Update there notes using perticular ID using thus Url
 
-For Test cases for every endpoints pkease refer Note_app test.py file.
+For Test cases for every endpoints please refer Note_app test.py file.
+Case(i) --> test_createnote
+Case(ii) --> test_NoteById
+Case(iii) --> test_NoteByTitle
+Case(iv) --> test_UpdateNote
 
-Thank you.
+
+
