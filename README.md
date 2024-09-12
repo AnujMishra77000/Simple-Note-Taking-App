@@ -30,10 +30,10 @@ Api EndPoints and there localhost address
     User can Update there notes using perticular ID using thus Url
 
 For Test cases for every endpoints please refer Note_app test.py file.
-Case(i) --> test_createnote
-Case(ii) --> test_NoteById
-Case(iii) --> test_NoteByTitle
-Case(iv) --> test_UpdateNote
+Case(i) --> test_createnote, 
+Case(ii) --> test_NoteById, 
+Case(iii) --> test_NoteByTitle, 
+Case(iv) --> test_UpdateNote, 
 
 
 
