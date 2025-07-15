@@ -1,4 +1,4 @@
-UPDATE ---> Today updated some test cases for more accurate tests.
+
 
 Build a RESTful API for a simple note-taking application using Django Framework
 Ae per above Assessment question i completed the given task I’ve thoroughly reviewed the requirements 
